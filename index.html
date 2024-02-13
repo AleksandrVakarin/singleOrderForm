@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="script.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<section class="card">
+		<p class="name">CardOne</p>
+		<img class="card-img" src="../styleExample/1.jpg" alt="card img">
+		<button class="order-button">Заказать</button>
+	</section>
+	<section class="card">
+		<p class="name">CardTwo</p>
+		<img class="card-img" src="../styleExample/2.jpg" alt="card img">
+		<button class="order-button">Заказать</button>
+	</section>
+	<section class="card">
+		<p class="name">CardThree</p>
+		<img class="card-img" src="../styleExample/3.jpg" alt="card img">
+		<button class="order-button">Заказать</button>
+	</section>
+
+
+	<form class="order-form_card" style="display: none;">
+		<button class="close-button">&times;</button>
+        <h4 class="form-head">Введите данные!</h4>
+                        
+		<div class="order-form">
+            <label class="order-form__content" id="label-name" for="text-input-name">Имя</label>
+                            
+            <input class="order-form__input" id="text-input-name" placeholder="Введите ваше имя">
+                            
+        </div>
+        <div class="order-form">
+            <label class="order-form__content" id="label-phone" for="text-input-phone">Номер телефона</label>
+                            
+            <input class="order-form__input" id="text-input-phone" placeholder="Введите ваш номер">
+                            
+        </div>                           
+        <button class="order-form__button" value="submit">Заказать</button>
+    </form>
+
+
+</body>
+</html>
